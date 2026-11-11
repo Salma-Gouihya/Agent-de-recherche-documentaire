@@ -8,7 +8,6 @@
 - **Encadrant :** _à compléter_
 - **Date de livraison :** 30 novembre 2026
 
----
 
 ## 1. Contexte
 
@@ -42,7 +41,7 @@ Questions techniques sous-jacentes :
 - `section_names` : enrichissement des citations (indiquer de quelle section provient une réponse) ;
 - `abstract` : référence pour vérifier la qualité des réponses.
 
-> Le fichier de données est placé dans le dossier `data/`. S'il est trop volumineux pour GitHub, il peut être remplacé par un extrait ou téléchargé depuis Kaggle.
+> Le dataset complet n'est pas versionné dans Git, car il dépasse la limite de taille de fichier de GitHub. Téléchargez-le depuis Kaggle et placez `arxiv-metadata-oai-snapshot.json` dans `data/` avant de lancer le projet. Ce fichier est ignoré par Git.
 
 ## 4. Objectifs
 
@@ -104,15 +103,7 @@ Question ──► Embedding de la question ──► Recherche (top-k) ◄─�
 - **Comparaison avec une référence :** utilisation des résumés (`abstract`) comme base de vérification.
 - **Réglages testés :** taille des passages, nombre de passages retrouvés (top-k), choix du modèle d'embeddings.
 
-## 9. Planning
 
-| Période | Tâches |
-|---|---|
-| 11 – 14 nov. | Choix du corpus, installation de l'environnement, prise en main du dataset |
-| 15 – 20 nov. | Pipeline d'ingestion : nettoyage, découpage, embeddings, base vectorielle |
-| 21 – 25 nov. | Question-réponse avec citations, interface de démonstration |
-| 26 – 28 nov. | Tests, évaluation, réglages |
-| 29 – 30 nov. | Rapport, préparation de la démo, **livraison** |
 
 ## 10. Structure du projet
 
@@ -142,12 +133,6 @@ streamlit run app.py
 
 _Ces commandes seront ajustées au fur et à mesure de l'avancement du projet._
 
-## 12. Livrables
-
-- Code source de l'agent (dépôt GitHub)
-- Prototype fonctionnel avec démonstration
-- Rapport de projet
-- Ce README
 
 ## 13. Limites et points d'attention
 

@@ -36,7 +36,7 @@ Questions techniques sous-jacentes :
 - `section_names` : enrichissement des citations (indiquer de quelle section provient une réponse) ;
 - `abstract` : référence pour vérifier la qualité des réponses.
 
-> Le dataset complet n'est pas versionné dans Git, car il dépasse la limite de taille de fichier de GitHub. Téléchargez-le depuis Kaggle et placez `arxiv-metadata-oai-snapshot.json` dans `data/` avant de lancer le projet. Ce fichier est ignoré par Git.
+> Le dataset complet est versionné avec Git LFS, car il dépasse la limite de taille de GitHub pour les fichiers Git classiques. Git LFS doit être installé pour cloner et récupérer le contenu du fichier.
 
 ## 4. Objectifs
 

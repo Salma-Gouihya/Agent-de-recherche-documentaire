@@ -2,11 +2,6 @@
 
 > Agent IA capable de répondre en langage naturel à des questions sur un corpus d'articles scientifiques, en citant ses sources (architecture RAG).
 
-- **Catégorie :** Connaissance et RAG
-- **Niveau :** Intermédiaire
-- **Auteure :** Salma Gouihya
-- **Encadrant :** _à compléter_
-- **Date de livraison :** 30 novembre 2026
 
 
 ## 1. Contexte
